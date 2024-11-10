@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienzo Care - L'application pour les propriétaires d'animaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête avec logo et navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Bienzo Care</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="btn-download" onclick="downloadApp()">Télécharger l'App</a>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="home" class="hero">
+        <h2>Bienzo Care - Votre assistant pour animaux</h2>
+        <p>Trouvez des solutions fiables pour vos animaux de compagnie, même lorsque vous êtes en déplacement.</p>
+        <a href="#features" class="btn-primary">Découvrir les fonctionnalités</a>
+    </section>
+
+    <!-- Section des fonctionnalités -->
+    <section id="features">
+        <h3>Fonctionnalités</h3>
+        <div class="features-container">
+            <div class="feature-item">
+                <h4>Garde d'animaux</h4>
+                <p>Confiez votre animal à des gardiens de confiance en cas de voyage.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Localisation de vétérinaires</h4>
+                <p>Trouvez des vétérinaires proches où que vous soyez.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Rappels de rendez-vous</h4>
+                <p>Recevez des notifications pour ne jamais manquer un rendez-vous important.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h3>À propos de Bienzo Care</h3>
+        <p>Bienzo Care est une application conçue pour simplifier la vie des propriétaires d'animaux en fournissant des services de garde, localisation d'urgence et rappels de soins, partout où ils en ont besoin.</p>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h3>Contactez-nous</h3>
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Bienzo Care. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
